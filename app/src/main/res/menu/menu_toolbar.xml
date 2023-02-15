@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/action_folder"
+        android:icon="@drawable/baseline_folder_24"
+        app:showAsAction="always"
+        android:title="Folder"/>
+
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/baseline_call_24"
+        app:showAsAction="withText"
+        android:title="Call"/>
+
+    <item
+        android:id="@+id/action_message"
+        android:icon="@drawable/baseline_message_24"
+        app:showAsAction="ifRoom"
+        android:title="Mesage"/>
+
+    <item
+        android:id="@+id/action_vcall"
+        android:icon="@drawable/baseline_video_call_24"
+        app:showAsAction="never"
+        android:title="Video Call"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="never"
+        android:title="Share"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/baseline_help_24"
+        app:showAsAction="never"
+        android:title="Help"/>
+
+
+</menu>

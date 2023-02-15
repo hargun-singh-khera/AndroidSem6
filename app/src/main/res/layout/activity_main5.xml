@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating for Food"
+        android:textSize="45sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quality"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="95dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRatingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="20dp"
+        android:stepSize="0.1"
+        android:numStars="5"
+        android:rating="1.5"
+        />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="195dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRatingBar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:stepSize="0.1"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        android:rating="1.5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ease of Ordering"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRatingBar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:paddingLeft="5dp"
+        android:stepSize="0.1"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        android:rating="1.5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Time"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRatingBar4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:paddingLeft="5dp"
+        android:stepSize="0.1"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        android:rating="1.5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your overall rating: "
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="540dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleRating"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/cardview_dark_background"
+        style="@style/Widget.AppCompat.RatingBar"
+        android:numStars="5"
+        android:rating="1.5"
+        android:isIndicator="true" />
+
+</RelativeLayout>
